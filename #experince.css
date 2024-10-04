@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(147, 32, 32);
+}
+
+#skills-projects {
+    padding: 50px;
+    text-align: center;
+}
+
+#skills-projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.skills, .project-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills h3, .project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+            color: white;
+        }
+
+        #education {
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #education h2 {
+            font-size: 40px;
+            color: #ff4d4d; /* Glossy Red Heading */
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ff4d4d;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .education-container {
+            width: 80%;
+            max-width: 900px;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            border-left: 5px solid #ff4d4d; /* Glossy Red Accent */
+            box-shadow: 0 6px 12px rgba(255, 77, 77, 0.2); /* Light Red Shadow */
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .education-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(255, 77, 77, 0.4); /* Deeper Red Shadow on Hover */
+        }
+
+        .education-container h3 {
+            font-size: 26px;
+            color: #ff4d4d;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .education-container p {
+            font-size: 18px;
+            color: #d3d3d3;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .education-container {
+                width: 95%;
+            }
+
+            #education h2 {
+                font-size: 34px;
+            }
+
+            .education-container h3 {
+                font-size: 22px;
+            }
+
+            .education-container p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-container">
+            <h3>Bachelor of Computer Applications (BCA) - MACFAST College, Thiruvalla, Pathanamthitta, Kerala</h3>
+            <p>Currently pursuing my Bachelor's degree in Computer Applications at MACFAST College, where I am learning the fundamentals of software development and computing technologies.</p>
+        </div>
+
+        <div class="education-container">
+            <h3>12th Grade - OSSANAM EMHSS, Kattappana, Idukki, Kerala</h3>
+            <p>I pursued my higher secondary education at OSSANAM EMHSS, focusing on science subjects which prepared me for my current studies in technology.</p>
+        </div>
+
+        <div class="education-container">
+            <h3>10th Grade - ST GORETTI HSS, Punalur, Kollam, Kerala</h3>
+            <p>I completed my 10th standard at ST GORETTI Higher Secondary School, where I built a strong foundation in core subjects.</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+            color: white;
+        }
+
+        #experience {
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #experience h2 {
+            font-size: 40px;
+            color: #f39c12;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .experience-container {
+            width: 80%;
+            max-width: 900px;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            border-left: 5px solid #f39c12;
+            box-shadow: 0 6px 12px rgba(255, 165, 0, 0.2);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .experience-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(255, 165, 0, 0.4);
+        }
+
+        .experience-container h3 {
+            font-size: 26px;
+            color: #f39c12;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .experience-container p {
+            font-size: 18px;
+            color: #d3d3d3;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .experience-container {
+                width: 95%;
+            }
+
+            #experience h2 {
+                font-size: 34px;
+            }
+
+            .experience-container h3 {
+                font-size: 22px;
+            }
+
+            .experience-container p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="experience-container">
+            <h3>BCA Student</h3>
+            <p>I am currently a first-year Bachelor of Computer Applications (BCA) student, actively learning web development, including HTML, CSS, JavaScript, and Python.</p>
+        </div>
+
+        <div class="experience-container">
+            <h3>Academic Projects</h3>
+            <p>As part of my coursework, I am working on small projects that involve creating simple web pages and solving programming problems using Python.</p>
+        </div>
+
+        <div class="experience-container">
+            <h3>Learning and Development</h3>
+            <p>I am continuously building my skill set through online courses, tutorials, and hands-on practice. I am focused on becoming proficient in front-end development and programming logic.</p>
+        </div>
+    </section>
+</body>
+</html>

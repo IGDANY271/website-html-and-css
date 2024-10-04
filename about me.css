@@ -1,0 +1,100 @@
+/* General Section Styling */
+
+body{
+    background-color: black;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    position: relative;
+}
+
+/* About Content */
+.about-content {
+    flex: 1;
+    max-width: 600px;
+    opacity: 0;
+    animation: fade-in 1s forwards 0s;
+}
+
+/* Individual Info Items with Fade-In Animation */
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fade-in 1s forwards 1s;
+    color: #f4f4f4;
+}
+
+.about-content .intro {
+    font-size: 1.2rem;
+    color: #fffdfd;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fade-in 1s forwards 2s;
+}
+
+.about-content .details {
+    font-size: 1rem;
+    color: #fffefe;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fade-in 1s forwards 3s;
+}
+
+.contact-info {
+    opacity: 0;
+    animation: fade-in 1s forwards 4s;
+    color: #f4f4f4;
+}
+
+.contact-info .info {
+    margin-bottom: 10px;
+}
+
+.contact-info .info span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.link1{
+    color: red;
+}
+
+/* Image Styling */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 400px;
+    height: 550;
+    border-radius: 0px;
+    opacity: 0;
+    animation: fade-in 1s forwards 3s;
+}
+
+/* Keyframes for Fade-In Animation */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
